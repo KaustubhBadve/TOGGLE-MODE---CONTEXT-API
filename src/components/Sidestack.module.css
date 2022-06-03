@@ -1,0 +1,76 @@
+.Hstack{
+    width: 60px;
+    height: 800px;
+  padding-top: 20px;
+}
+.Hstack>div{
+    font-size: 30px;
+}
+.Hstack>div:hover{
+    background-color: rgb(134, 134, 232);
+    color: white;
+    cursor: pointer;
+    width: 50px;
+    text-align: center;
+    height: 40px;
+}
+.btnround{
+    border-radius: 75%;
+    background-color: rgb(63, 95, 84);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: white;
+    margin-top: 70px;
+}
+.subhstack{
+    width: 380px;
+    height: 100px;
+    display: flex;
+}
+.subhstack>div{
+    width: auto;
+    height: auto;
+}
+.stack2{
+    width: 500px;
+    padding-left: 10px;
+}
+.main{
+    display: flex;
+}
+.activeuser{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+.nrupul{
+    display: flex;
+}
+.nrupul>div{
+    margin-left: 22px;
+}
+.people{
+    width: 100%;
+    line-height: 30px;
+}
+.dots{
+    margin-left : 250px !important;
+}
+.nrupull{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 30px;
+}
+.range{
+width: 90%;
+margin-left: 30px;
+border: 0.5px solid rgb(118, 109, 109);
+}
